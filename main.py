@@ -144,7 +144,7 @@ if hunting_powder[1] * 100 < treated_meat * 50:
     print(f'- Treated Meat: AH {treated_meat} - Exchange {hunting_powder[1] * 2}')
     treated_meat = hunting_powder[1] * 2
 if hunting_powder[1] * 100 < tough_leather * 50:
-    print(f'- Tough Leather: AH {tough_leather} - Exchange {tough_leather[1] * 2}')
+    print(f'- Tough Leather: AH {tough_leather} - Exchange {hunting_powder[1] * 2}')
     tough_leather = hunting_powder[1] * 2
 if hunting_powder[1] * 100 < caldarr_thick_raw_meat * 10:
     print(f'- Caldarr Thick Raw Meat: AH {caldarr_thick_raw_meat} - Exchange {hunting_powder[1] * 10}')
@@ -202,25 +202,27 @@ print('Awakening Potion:',
       (exquisite_mushroom * 5 + fresh_mushroom * 20 +
        sturdy_timber * 2 + rare_relic * 4 + crude_mushroom * 40 + 29) / 3)
 print('Caldarr Fusion Material (Hunting):',
-      (caldarr_thick_raw_meat * 9 + tough_leather * 36 + thick_raw_meat * 72 + 78) / 30)
+      (caldarr_thick_raw_meat * 9 + tough_leather * 36 + thick_raw_meat * 72 + 76) / 30)
 print('Caldarr Fusion Material (Excavating):',
-      (caldarr_relic * 7 + rare_relic * 28 + ancient_relic * 56 + 78) / 30)
+      (caldarr_relic * 7 + rare_relic * 28 + ancient_relic * 56 + 76) / 30)
 print('Caldarr Fusion Material (Fishing):',
-      (caldarr_solar_carp * 9 + natural_pearl * 36 + fish * 72 + 78) / 30)
+      (caldarr_solar_carp * 9 + natural_pearl * 36 + fish * 72 + 76) / 30)
 print('Simple Oreha Fusion Material (Hunting):',
-      (oreha_thick_meat * 9 + tough_leather * 36 + thick_raw_meat * 72 + 196) / 30)
+      (oreha_thick_meat * 9 + tough_leather * 36 + thick_raw_meat * 72 + 194) / 30)
 print('Simple Oreha Fusion Material (Excavating):',
-      (oreha_relic * 7 + rare_relic * 28 + ancient_relic * 56 + 196) / 30)
+      (oreha_relic * 7 + rare_relic * 28 + ancient_relic * 56 + 194) / 30)
 print('Simple Oreha Fusion Material (Fishing):',
-      (oreha_solar_carp * 9 + natural_pearl * 36 + fish * 72 + 196) / 30)
+      (oreha_solar_carp * 9 + natural_pearl * 36 + fish * 72 + 194) / 30)
 print('Basic Oreha Fusion Material (Hunting):',
-      (oreha_thick_meat * 10 + tough_leather * 40 + thick_raw_meat * 80 + 200)/30)
+      (oreha_thick_meat * 10 + tough_leather * 40 + thick_raw_meat * 80 + 194)/30)
 print('Basic Oreha Fusion Material (Excavating):',
-      (oreha_relic * 8 + rare_relic * 26 + ancient_relic * 64 + 200)/30)
+      (oreha_relic * 8 + rare_relic * 26 + ancient_relic * 64 + 194)/30)
 print('Basic Oreha Fusion Material (Fishing):',
-      (oreha_solar_carp * 10 + natural_pearl * 40 + fish * 80 + 200)/30)
+      (oreha_solar_carp * 10 + natural_pearl * 40 + fish * 80 + 194)/30)
 print('Punika Archaeological Site Map:',
-      (oreha_relic * 39 + rare_relic * 195 + 39))
+      (oreha_relic * 39 + rare_relic * 195 + 38))
+print('South Vern Archaeological Site Map:',
+      (oreha_relic * 43 + rare_relic * 215 + 47))
 print('Uncommon Ship Parts Material:',
       (strong_iron_ore * 3 + sturdy_timber * 3 + heavy_iron_ore * 8 + tender_timber * 8 + 20) / 15)
 print('Tool Crafting Part:',
